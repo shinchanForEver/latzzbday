@@ -18,7 +18,8 @@ let content = [
     {'date':'07.2024 -> 09.2024','content':'nariya notes <br>nariya story<br>surprisingly you noticed them all..','src':''},
     {'date':'26.09.2024 <br>-><br> 27.09.2024','content':'i rushed up ig wait panni irukanum','src':''},
     {'date':'27.09.2024','content':'oru unforgattable night <br> again &#129419;','src':'assets/images/16.jpg'},
-    {'date':'30.09.2024','content':'short and sweet love story &#129505;<br><span>ithu love story ha kuda theriyala enaku etho neega oru mistake la [mood swing] vathu solitinga pola irruku<span>','src':'assets/images/17.jpg'}
+    {'date':'30.09.2024','content':'short and sweet love story &#129505;<br><span>ithu love story ha kuda theriyala enaku etho neega oru mistake la [mood swing] vathu solitinga pola irruku<span>','src':'assets/images/17.jpg'},
+    {'date':'Manifestation','content':'oru PIC neega <span style="color:gold; font-size:1.7rem">saree</span> la na <span style="color:gold; font-size:1.7rem">suit</span> la','src':''}
 ];
 
 content.forEach((Element) => {
