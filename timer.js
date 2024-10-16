@@ -20,11 +20,10 @@ function updateTimer() {
 
     // Display the result in the <p> element with id "timer"
     document.getElementById("timer").innerHTML = 
-        `${days} DAY ${hours}:${minutes}:${seconds}`;
+        `${days} DAYS ${hours}:${minutes}:${seconds}`;
 }
 function updateTimer1() {
-    const endDate = new Date("2024-10-20T23:59:59"); //TODO CHANGE THE TIMER WHEN NEED
-
+    const endDate = new Date("2024-10-19T23:59:59"); //TODO CHANGE THE TIMER WHEN NEED
     // Get the current date and time
     const currentDate = new Date();
 
@@ -33,7 +32,7 @@ function updateTimer1() {
 
     // If the time difference is less than or equal to 0, stop the timer
     if (timeDifference <= 0) {
-        document.getElementById("timer").innerHTML = "DECISION PENDING";
+        document.getElementById("timer").innerHTML = "<span id='expired_text'>YESSS YESSS NO VA YESS HAA அழகிய</span>";
         return;
     }
 

@@ -306,6 +306,9 @@ body {
     font-weight: bold;
 }
 
+#expired_text{
+    font-size: 3rem;
+}
 /* Define fade-in animation */
 @keyframes fadeIn {
     0% {
@@ -337,6 +340,9 @@ body {
     }
     #timer {
         font-size: 2.5rem;
+    }
+    #expired_text{
+        font-size: 1.5rem;
     }
     .card {
         width: 200px;
@@ -380,5 +386,9 @@ body {
     }
     .card-container{
         margin: 15px;
+    }
+    .small_txt{
+        font-size: 1.3rem;
+        color:white;
     }
 }

@@ -13,9 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(el);
     });
 });
-
+var background_audio=document.getElementById('background_audio');
 function displayer_changer(){
-  var background_audio=document.getElementById('background_audio');
   background_audio.play();
   document.querySelector('.pop_up_container').style.visibility='hidden';
   document.body.style.overflow='auto';
@@ -57,15 +56,16 @@ let count = 1;
     audio_content.addEventListener('play', () => {
       background_audio.pause();
       visibility_hidder(); // Trigger poem display when the audio plays
-      
     });
 
-    audio_content.addEventListener('play', () => {
+    audio_content.addEventListener('pause', () => {
       background_audio.play();
     });
+
+
     var audio_content_1 = document.getElementById('final_audio');
     audio_content_1.addEventListener('play', () => {
-      var background_audio=document.getElementById('background_audio');
+      background_audio.pause();
       setTimeout(function() {
         document.getElementById('text_visible').style.visibility = 'visible';
     }, 144000);
@@ -78,7 +78,9 @@ let count = 1;
   setTimeout(function() {
     document.getElementById('text_visible_4').style.visibility = 'visible';
     }, 210000);
-      background_audio.pause();
+    setTimeout(function() {
+      document.getElementById('text_visible_5').style.visibility = 'visible';
+      }, 300000);
     });
     audio_content_1.addEventListener('pause', () => {
       background_audio.play();

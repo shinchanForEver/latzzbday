@@ -1,6 +1,6 @@
 let content = [
     {'date':'16.12.2023','content':'those first butterflies &#129419;','src':'assets/images/1.jpg'},
-    {'date':'12.03.2024','content':'tha matter ha <br> ada gomala moments','src':'assets/images/2.jpg'},
+    {'date':'12.03.2024','content':'&#128077; tha matter ha <br> ada gomala moments','src':'assets/images/2.jpg'},
     {'date':'13.03.2024','content':'&#128077; continues','src':'assets/images/3.jpg'},
     {'date':'16.03.2024','content':'after 3 months <br> atha number kudutha moment irruka &#128293;','src':'assets/images/4.jpg'},
     {'date':'26.03.2024','content':'atha 9 chocolates irrukaaa...<br> evalo planning daily','src':''},
@@ -15,11 +15,11 @@ let content = [
     {'date':'13.05.2024','content':'theriyama like panita laa....','src':'assets/images/13.jpg'},
     {'date':'3.07.2024','content':'elama theriyum ana <br>theriyatha mari irukanum','src':'assets/images/14.jpg'},
     {'date':'21.07.2024','content':'yeemaa yeema moments &#129315;','src':'assets/images/15.jpg'},
-    {'date':'07.2024 -> 09.2024','content':'nariya notes <br>nariya story<br>surprisingly you noticed them all..','src':''},
+    {'date':'07.2024 -> 09.2024','content':'nariya notes <br>nariya story<br>surprisingly you noticed them all..&#128519;','src':''},
     {'date':'26.09.2024 <br>-><br> 27.09.2024','content':'i rushed up ig wait panni irukanum','src':''},
     {'date':'27.09.2024','content':'oru unforgattable night <br> again &#129419;','src':'assets/images/16.jpg'},
     {'date':'30.09.2024','content':'short and sweet love story &#129505;<br><span>ithu love story ha kuda theriyala enaku etho neega oru mistake la [mood swing] vathu solitinga pola irruku<span>','src':'assets/images/17.jpg'},
-    {'date':'Manifestation','content':'oru PIC neega <span style="color:gold; font-size:1.7rem">saree</span> la na <span style="color:gold; font-size:1.7rem">suit</span> la','src':''}
+    {'date':'<span class="small_txt">Manifestation</span>','content':'oru PIC neega <span style="color:gold; font-size:1.7rem">saree</span> la na <span style="color:gold; font-size:1.7rem">suit</span> la','src':''}
 ];
 
 content.forEach((Element) => {
