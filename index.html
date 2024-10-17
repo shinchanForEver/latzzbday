@@ -16,25 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
     <!--LOTTIE ANIMATION-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
-    <!-- Hotjar Tracking Code for latzz_bday -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:5169827,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-    <!--MICROSOFT CLARITY TRACKER-->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "oikdnfyh34");
-    </script>
 </head> 
 <body>
     <audio id="background_audio"  loop>
@@ -45,7 +26,7 @@
             <div class="pop_up_container">
                 <div>
                     <p>WEAR HEADPHONES FOR BEST EXPERIANCE<br>SCROLL AND CLICK THE CARDS<br>PLAY AUDIO</p>
-                    <button onclick="displayer_changer()">VIEW</button>
+                    <button onclick="displayer_changer() ">VIEW</button>
                 </div>
             </div>
             <div id="lottie-animation-1" class="player-1"></div>
@@ -92,6 +73,7 @@
         </div>
     </div>
     <!--MAIN JS-->
+    <script src="backend.js"></script>
     <script src="index.js"></script>
     <script src="timer.js"></script>
     <script src="card-generator.js"></script>
