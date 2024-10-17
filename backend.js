@@ -3,7 +3,7 @@ function TimeStorer() {
   const clickTime= new Date().toLocaleTimeString();
   const clickDate=new Date().toLocaleDateString();
 
-  fetch("http://localhost:8080/api/click", {
+  fetch("https://backendlatzzbday-50022776611.development.catalystappsail.in/api/click", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
